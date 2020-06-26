@@ -1,0 +1,280 @@
+
+*{
+	box-sizing: border-box;
+ 	margin:0px;
+ 	padding:0px;
+ 	zoom:100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	font-family: batang;
+	background:#FFFFFF;
+}
+
+.contenedor{
+	width: 975px;
+	margin:auto;
+}
+
+.imagen_presentacion{
+	height:200px;
+	background:url(../imagenes/ZooBarquisimeto.jpg); 
+}
+
+
+nav ul{
+	list-style:none;
+	display: flex;
+    text-align: center;
+}
+
+.nav_formulario{
+ 	font-size: 20px;
+    padding: 7px;
+}
+
+ .nav_link{
+	font-family:Wingdings 2;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	
+}
+
+.contenedor_link{
+	background:#000000 ;
+	color:#F6F1F1;
+	padding: 7px 90px 7px 90px;  
+}
+
+.contenedor_link:hover{
+	background :#898686;
+}
+
+.contenedor_link:focus{
+	color:#A12020;
+}
+
+.main-section{
+	background:url(../imagenes/imagen1.jpg);
+	font-weight:bold;
+ 	float: left;
+ 	width: 60%;
+ 	height:450px;
+ }
+
+ .contenedor_title{
+ 	background: #18820D;
+ }
+
+ .title{
+ 	background: #A32C08;
+ 	font-family: Broadway;
+ 	font-size: 19px;
+ 	color: #ECFF00;
+ 	text-align: center;
+ 	padding:4px;
+ }
+ 
+ .title1{
+ 	font-family: Perpetua Titling MT;
+ 	font-size: 30px;
+ 	color: #ffffff;
+ 	text-align: center;
+ }
+
+ .articulo1{
+ 	text-align: justify;
+ 	margin:40px 40px 10px 40px;
+ 	font-size: 22px;
+ }
+
+ .imagenes1{
+ 	width: 250px;
+ 	height:150px;
+ 	position: relative;
+ 	border-radius: 10px;
+ 	top:10px;
+ 	left:5px;
+ 	border:solid 2px;
+  }
+
+.imagenes2{
+	float: right;
+ 	width: 250px;
+ 	height:150px;
+ 	position: relative;
+ 	border-radius: 10px;
+ 	top:10px;
+ 	left:5px;
+ 	border:solid 2px;
+ }
+
+aside{
+	background: url(../imagenes/fondo.jpg);
+	float:right;
+	width:40%;
+	height: 450px;
+}
+
+.login{
+	padding:5px 40px 40px 40px;
+	margin-top: 8px;
+	margin-left:25px;
+	margin-right:25px;
+	width: 340px;
+	height: 380px;
+	background: #ffffff90;
+}
+
+.icono{
+	position: relative;
+	left: 33%;
+ 	font-size: 90px;
+    color:#1D80E0;
+}
+
+.icono1{
+	color:#D31919;
+}
+
+.icono2{
+	position: relative;
+	left:40px;
+	top:5px;
+ 	font-size: 35px;
+ 	float: left;
+ 	color:#15CC78;
+}
+
+input{
+	box-shadow: 0 0 20px #CEC7C5;
+	display: inline-block;
+	width: 260px;
+	margin-top: 5px;
+	margin-bottom:15px;
+	padding: 10px;
+	background-color:transparent;
+	border-style:none;
+	outline: none;
+	border-bottom:1px solid #CA0000;
+}
+
+input:focus{
+	background:#80B5E9;
+	border-bottom:2px solid #CA0000;
+	transition:.7s;
+}
+
+input[type=text]{
+	padding:10px 0px 10px 4px; 
+}
+
+label{
+	color:#D31919;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.buttoni,.buttonr{
+	box-shadow: 0 0 15px #B3AEAD;
+	width: 95%;
+	margin:10px 7px 0px 7px;
+	padding:5px;
+	border-radius: 6px;
+	border-style:none;
+	background-color:#D31919;
+	color:#ffffff;
+	text-transform:uppercase;
+}
+
+.buttonr:hover,.buttoni:hover{
+	background:#921111;
+	cursor: pointer;
+}
+
+input[type=button]:focus{
+	background: red;
+}
+
+.contenido1{
+	font-size:11px;
+	color:#B13C16;
+	position:relative;
+	bottom:10px;
+	font-weight:bolder;
+}
+
+.Olvidastec{
+	text-align:center;
+	margin-top:5px;
+	padding: 5px;
+	font-size:11.5px;
+	color:#D31919;
+	text-decoration-line;
+	font-weight:bolder;
+}
+
+.Olvidastec:hover{
+	color:#921111;
+}
+
+footer{
+ 	background:#2718DE; 
+	clear:both;
+	height:30px;
+}
+blockquote p{
+	padding:5px;
+	text-align:center;
+	color:#ffffff;
+}
+
+@media (max-width: 900px){
+
+	.contenedor{
+		width:500px;
+		margin: auto;
+	}
+
+	.title1{
+		font-size:34px;
+	}
+
+	.contenedor_link{
+		padding:7px 30px;
+	}
+
+	.main-section{
+		width:500px;
+	}
+
+	.imagenes1,.imagenes2{
+		width:200px;
+		height:120px;
+	}
+
+	aside{
+		width:500px;
+		height:470px;
+		float: none;
+		clear:both;
+	}
+
+	.title{
+		font-size:26px;
+		height:70px;
+	}
+
+	.icono2{
+		font-size: 55px;
+	}
+
+	.login{
+		margin:10px 65px;
+		width:370px;
+		height:380px;
+		padding:7px 55px;
+ 	}
+}

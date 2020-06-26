@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de animales</title>
+	<link rel="stylesheet" type="text/css" href="css/miestilo2.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+	<div class="contenedor_main">
+
+	<header class="header_p"><h1 class="title">Gestionar Animales</h1></header>
+
+		<nav class="contenedor_nav">
+       	 	<ul>
+				<li class="nav_link"><a href="formulario.html" class="contenedor_link">gestionar animales</a></li>
+				<li class="nav_link"><a href="#" class="contenedor_link" onclick=" return validar2()">Gestionar vacunas</a></li>
+				<li class="nav_link"><a href="#" class="contenedor_link" onclick=" return validar2()">Gestionar dieta</a></li>
+				<li class="nav_link"><a href="#" class="contenedor_link" onclick=" return validar2()">Gestionar inventario</a></li>
+			
+			</ul>
+		</nav>
+
+<div class="contenedor_for_animal">
+	<form action="" name="formulario1">
+
+		<div class="contenedor1">
+			<label id="" name="codigo">Codigo:</label>
+			<input type="text" name="codigo_animal" class="input_formulario" required>
+			<label id="" name="">Especie:</label>
+			<input type="text" name="especie_animal" class="input_formulario" required>
+				
+				<div class="input_radio">
+					<h4 class="identificador">Sexo:</h4>
+					<input type="radio" name="sexo" id="macho">
+					<label for="macho">Macho</label>
+	
+					<input type="radio" name="sexo" id="hembra">
+					<label for="hembra">Hembra</label>
+				</div>		
+		</div>
+
+		<div class="contenedor2">
+			<label id="" name="">Peso:</label>
+			<input type="text" name="peso_animal" class="input_formulario" required>
+			<label id="" name="">Edad:</label>
+			<input type="text" name="edad_animal" class="input_formulario" required>
+			<label id="" name="">Habitats:</label>
+			<input type="text" name="habitats_animal" class="input_formulario" required>
+		</div>
+		<div class="contenedor3">
+			<a href=""><input type="button" name="Registrar"value="Registrar" onclick="return validar1();"></a>
+			<input type="button" name="Eliminar"value="Eliminar">
+			<input type="button" name="Actualizar"value="Actualizar">
+			<input type="button" name="Consultar"value="Consultar">
+		</div>
+	</form>
+
+</div>
+<footer class="pie_pagina"></footer>
+</div>
+
+
+</body>
+</html>
