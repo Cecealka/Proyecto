@@ -1,73 +1,109 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Parque Zoologico</title>
-	<link rel="stylesheet" type="text/css" href="css/miestilo.css">
-    <script src="https://kit.fontawesome.com/7d29953f1d.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-</head>
+<html leng="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/jpg" href="imagenes/logo.jpg">
+		<title>Urb.Yucatán</title>
+		<!-- CSS only -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<!-- Script only para los iconos -->
+		<script src="https://kit.fontawesome.com/7d29953f1d.js" crossorigin="anonymous"></script>
+		<!--enlace hoja de estilo -->
+		<link rel="stylesheet" type="text/css" href="css/miestilo.css">
+	</head>
+	<body>
+		<header><img class="imagenes" src="imagenes/imag1.jpg"></header>
+		<div>
+			<nav class="menu sticky-top">
+					<div class="imag2">
+						<img class="imagenes2" src="imagenes/logo.jpg">
+						<h4 class="title">Urbanización Yucatán</h4>
+					</div>
+					<div class="menudenav position-fixed-top">
+						<a class=" navegacion bg-secondary text-white text-center" href="#ancla1" class="ancla" data-ancla="ancla1">INICIO</a></li>
+						<a class=" navegacion bg-secondary text-white text-center" href="#ancla2">QUIENES SOMOS</a></li>
+						<a class=" navegacion bg-secondary text-white text-center" href="#ancla3">SERVICIOS</a></li>
+						<a class=" navegacion bg-secondary text-white text-center" href="#ancla4">CONTACTOS</a></li>
+						<a class=" navegacion bg-secondary text-white text-center" href="#ancla5">INICIAR SESION</a></li>
+					</div>
+			</nav>
+			<section class="container1" id="ancla1">
+					<article class="articulo1">
+						<h1 class="title1">SISTEMA PARA EL CONTROL FINANCIERO DE LOS GASTOS COMUNES.</h1>
+						<h3 class="frase1">El LIDERAZGO nos conduce a hacer las cosas, la GESTION nos permite conseguir buenos resultados y el ORDEN nos enseña a ganar tiempo.</h3>
+						<div class="boton1"><a class="boton bg-primary text-light text-center" href="#ancla5">INICIAR SESION</a></div>
+					</article>
+			</section>
+			<section class="container2" id="ancla2">
+				<article class="articulo2">
+						<h1 class="title2">QUIENES SOMOS</h1>
+						<p>Somos una comunidad dentro de un urbanismo cerrado, que se encuentra ubicada en el Municipio Iribarren, Zona norte, km 14 vía Duaca, Parroquia Tamaca, cuyo nombre es <strong>"Urbanización Yucatán"</strong>. No poseemos un condominio sino que estamos siendo organizados, administrados y atendidos por nuestro Consejo Comunal, el cual se encarga de establecer normas y obligaciones que procuren la permanencia y la conservación de los servicios, además de realizar labores de atención a la comunidad con el objetivo de que los habitantes los puedan aprovechar de forma óptima, eficiente y agradable para todos.</p>
+				</article>	
+			</section>	
+			<section class="container3" id="ancla5">			
+				<article class="articulo3">
+					<div class="login">
+			            <div class="icono">
+			                <i class="iconodel fas fa-user-circle"></i>
+			           	</div>
+			          	<form name="formulario">
+			            	<i class="icono1 fas fa-user"></i>
+			    	        <label  for="usuario">Usuario:</label>
+			    	        <input type="text" id="usuario" name="usuario1" class="inUsuario">
+			                <div id="con1" class="contenido1"></div>
+			    	        <i class="icono1 fas fa-key"></i>
+			                <label for="clave">Clave:</label>
+			    	        <input type="password" id="clave" name="clave1" class="inClave">
+			                <div id="con2" class="contenido1"></div>
+			               	<div class="botonesdei">
+			                    <button class=" boton1 bg-primary text-light text-center" type="button">Ingresar</button>
+			    	            <button class=" boton1 bg-primary text-light text-center" type= "button">Registrar</button>
+			                    <a href=""><h2 class="Olvidastec text-body">Recuperar Contraseña</h2></a>
+			                </div>
+			      	    </form>			      	     
+			    	</div>
+				</article>
+			</section>	
+			<section class="container4" id="ancla3">
+				<div class="cajatexto">
+				<h1 class="text-info text-center">Servicios</h1>
+				<h3 class="texto text-white text-center">Nuestro principal servicio es ofrecerle el completo sistema en linea para la administracion de los gastos comunes.</h3>
+				</div>
+				<article class="articulo4">
+				 <div class="caja1"></div>
+				 <div class="caja1"></div>
+				</article>
+			</section>
+		    <section class="container5" id="ancla4">
+		    	<h1 class="textoc text-white text-center">Contactos</h1>
+					<article class="articulo5">
+					<div class="caja2">
+						<i class="icono2 fas fa-id-card"></i>
+						<i class="icono2 fas fa-mobile"></i>
+						<i class="icono2 fas fa-phone"></i>
+						<i class="icono2 fas fa-envelope"></i>
+					</div>
 
-<body>
-	<div class="contenedor">
-    <header class="imagen_presentacion"></header>
+					<div class="caja2">
+						<i class="icono2 fas fa-id-card"></i>
+						<i class="icono2 fas fa-mobile"></i>
+						<i class="icono2 fas fa-phone"></i>
+						<i class="icono2 fas fa-envelope"></i>
+					</div>
 
-	<div class="contenedor_title">
-    <h1 class="title1">PARQUE ZOOLOGICO BOTANICO BARARIDA</h1>
-    </div>
-
-    <nav class="main_nav">
-        <ul class="navegacion_container">
-
-			<li class="nav_link"><a href="index.html" class="contenedor_link">Inicio</a></li>
-			<li class="nav_link"><a href="#" class="contenedor_link" onclick="return validar3()">Informacion</a></li>
-			<li class="nav_link"><a href="#" class="contenedor_link" onclick="return validar3()">Servicios</a></li>
-			<li class="nav_link"><a href="#" class="contenedor_link" onclick="return validar3()">Contactos</a></li>
-
-		</ul>
-	</nav>
-
-    <section class="main-section">
-    	<article class="articulo1"><p> En Venezuela, estado lara, Barquisimeto, posee un Parque recreacional muy acojedor donde existe la combinacion de animales, fauna y la tranquilidad de la naturaleza.</p> 
-        <p>Un Lugar que sin duda no debes dejar de visitar, una fauna hermosa, un espacio súper amplio para disfrutar en familia y siempre recordando que son espacios para cuidar y mantener.</p>
-
-            <img src="imagenes\zoologico1.jpg" class="imagenes1">
-
-            <img src="imagenes\zoologico2.jpg" class="imagenes2">
-
-    </article>
-
-    </section>
-
-    <aside>
-        <i class="icono2 fas fa-clipboard"></i>  
-        <h1 class="title">GESTION MEDICA DE LOS ANIMALES</h1>  
-
-    	<div class="login">
-        <i class="icono fas fa-user-circle"></i>
-
-    	<form name="formulario">
-        <i class="icono1 fas fa-user"></i>
-    	<label  for="usuario">Usuario:</label>
-    	<input type="text" id="usuario" name="usuario1" class="inUsuario">
-        <div id="con1" class="contenido1"></div>
-    	<i class="icono1 fas fa-key"></i>
-        <label for="clave">Clave:</label>
-    	<input type="password" id="clave"  name="clave1" class="inClave">
-        <div id="con2" class="contenido1"></div>
-    	
-        <a href="formulario.html"><input type="button" class="buttoni"value="ingresar" onclick="return validar()"></a>
-
-    	<a href=""><input type= "button" name="registrarse" class="buttonr" value="registrarse"></a>
-
-        <h1 class="Olvidastec"><a href="#" class="Olvidastec">Recuperar contraseña</a></h1>
-    	</form>
-
-    	</div>
-
-    </aside>
-    
-   <footer class="footer"><blockquote><p>Derechos reservados de Cesar Vides 2020 c py.</p></blockquote></footer>
-</div>
-</body>
+					<div class="caja2">
+						<i class="icono2 fas fa-id-card"></i>
+						<i class="icono2 fas fa-mobile"></i>
+						<i class="icono2 fas fa-phone"></i>
+						<i class="icono2 fas fa-envelope"></i>
+					</div>
+				</article>
+			</section>
+		<footer><div class="footer1"><p class="textofinal">Copyright &copy; 2020 Cesar Vides, todos los derechos reservados.</p></div></footer>
+		<!-- JS, Popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		</div>
+	</body>
 </html>
