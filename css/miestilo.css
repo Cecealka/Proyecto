@@ -124,13 +124,13 @@ body{
 	background: url(../imagenes/imag5.jpg);
 	background-size: 100%;
 	width: 100%;
-	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .login{
+	margin:40px;
 	border-radius: 5px;
 	padding: 25px;
 	width: 340px;
